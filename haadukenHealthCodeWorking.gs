@@ -1,6 +1,6 @@
 // add your Google API Project OAuth client ID and client secret here
 var ClientID = '835030589592-45piefur4mc1av9k101fbf7n5d5r25l4.apps.googleusercontent.com';
-var ClientSecret = 'BthMwTEAC9aUDmNBU_8B5Jhl';
+var ClientSecret = '';
 function onOpen() {
   var ui = SpreadsheetApp.getUi();
   ui.createMenu('Google Fit')
