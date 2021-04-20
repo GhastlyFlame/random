@@ -1,0 +1,6 @@
+Timeline
+    server setup
+    testing
+    implentation
+    stuff past planning stage
+    
