@@ -9,3 +9,5 @@ In this UML Diagram, we have the use case of the application for the customers, 
 The guests of the resturant would need to scan a QR code to connect and interact with the system, the resturant able to see who is using the system for payments, and adjust song library, and the system admin who has full control and visibility of the queue and history in the system.
 
 In the Gantt Chart, we decided to include everything from the project proposal in order to ime everything as accurately as possible in order to stay on track for completion. Everything within the planning stage was set to be completed for the project report, we have also scheduled out the entire design, develpoment, and deployment stage of the project so we can stay on schedule.
+
+The timeline shows the starting dates and is more meant for public display and to stakeholders with the same test dates from the gantt chart, it is meant for a quick reminder of dates
