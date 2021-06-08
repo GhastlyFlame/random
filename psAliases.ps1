@@ -20,6 +20,6 @@ new-alias status Git-Status
     Runs git fetch for every repo in the dir
 #>
 function Git-Fetch {
-    Push-Location;gci . -Directory|%{Set-Location $_.FullName;Write-Host $_.Name; git status;Write-Host};Pop-Location
+    Push-Location;gci . -Directory|%{Set-Location $_.FullName;Write-Host $_.Name; git fetch;Write-Host};Pop-Location
 }
 new-alias fetch Git-Fetch
