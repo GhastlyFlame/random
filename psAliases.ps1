@@ -5,7 +5,7 @@
 function Git-Update {
     Push-Location;gci . -Directory|%{Set-Location $_.FullName;Write-Host $_.Name; git pull;Write-Host};Pop-Location
 }
-new-alias gitpull Git-Update
+new-alias pull Git-Update
 
 <#
     .Description
@@ -14,4 +14,12 @@ new-alias gitpull Git-Update
 function Git-Status {
     Push-Location;gci . -Directory|%{Set-Location $_.FullName;Write-Host $_.Name; git status;Write-Host};Pop-Location
 }
-new-alias gitstatus Git-Status
+new-alias status Git-Status
+<#
+    .Description
+    Runs git fetch for every repo in the dir
+#>
+function Git-Fetch {
+    Push-Location;gci . -Directory|%{Set-Location $_.FullName;Write-Host $_.Name; git status;Write-Host};Pop-Location
+}
+new-alias fetch Git-Fetch
